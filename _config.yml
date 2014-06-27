@@ -1,0 +1,10 @@
+title: Groundwork
+email: info@buildgroundwork.com
+description: "Totes McGotes"
+baseurl: ""
+url: "http://buildgroundwork.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
