@@ -3,6 +3,7 @@ email: info@buildgroundwork.com
 description: "Totes McGotes"
 baseurl: ""
 url: "http://buildgroundwork.com"
+username: "buildgroundwork"
 
 # Build settings
 markdown: kramdown

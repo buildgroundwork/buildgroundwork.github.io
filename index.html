@@ -2,19 +2,32 @@
 layout: default
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>Hello, world!</h1>
+    <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+  </div>
 </div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Software Sucks</h2>
+      <p>Freegan chillwave vinyl Marfa bespoke hella. Squid gastropub ethical twee, try-hard Cosby sweater 8-bit. Umami +1 mustache, yr hoodie before they sold out shabby chic iPhone four loko beard. Vice Shoreditch trust fund put a bird on it. Paleo Cosby sweater readymade, craft beer hashtag actually scenester cardigan Pitchfork brunch locavore gentrify flannel PBR. Blue Bottle farm-to-table kogi 8-bit Brooklyn freegan, sriracha 3 wolf moon yr mumblecore 90's butcher Marfa beard umami. Direct trade DIY mixtape keytar ethnic tousled, leggings kogi polaroid salvia authentic iPhone distillery.</p>
+    </div>
+    <div class="col-md-4">
+      <h2>We Fix It</h2>
+      <p>Crucifix iPhone slow-carb, Etsy seitan 90's hashtag small batch ethnic. Shabby chic distillery locavore tousled literally. Authentic paleo deep v, ennui stumptown keytar shabby chic leggings Intelligentsia. Cosby sweater Pinterest aesthetic, VHS Wes Anderson lomo distillery scenester pork belly sriracha. Bushwick hashtag irony typewriter, chia McSweeney's XOXO. Vice VHS banh mi whatever, photo booth kitsch Wes Anderson Williamsburg ethnic McSweeney's locavore fanny pack semiotics Intelligentsia literally. Tattooed Williamsburg messenger bag before they sold out pour-over trust fund.</p>
+   </div>
+    <div class="col-md-4">
+      <h2>Here's How</h2>
+      <p>DIY Tonx Intelligentsia pickled fingerstache. Paleo organic four loko vegan food truck, distillery butcher meggings trust fund Vice twee asymmetrical. Put a bird on it ethnic messenger bag bespoke YOLO, pug quinoa cred. You probably haven't heard of them twee distillery Godard, next level asymmetrical polaroid selvage beard art party cred literally vinyl fanny pack ethnic. Wes Anderson skateboard gluten-free American Apparel banjo, semiotics tote bag letterpress trust fund. Roof party post-ironic Wes Anderson chia kogi, organic church-key plaid tattooed. Forage +1 mumblecore fixie.</p>
+    </div>
+  </div>
+
+  <hr>
+
+</div> <!-- /container -->
+

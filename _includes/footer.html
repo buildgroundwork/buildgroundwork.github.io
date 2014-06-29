@@ -1,18 +1,10 @@
-<footer class="site-footer">
-
-  <div class="wrap">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-1 column">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-8">
       <ul>
-        <li>{{ site.title }}</li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-      </ul>
-    </div>
-
-    <div class="footer-col-2 column">
-      <ul>
+        <li>
+          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        </li>
         <li>
           <a href="https://github.com/{{ site.username }}">
             <span class="icon github">
@@ -50,12 +42,10 @@
           </a>
         </li>
       </ul>
-    </div>
-
-    <div class="footer-col-3 column">
-      <p class="text">{{ site.description }}</p>
-    </div>
-
   </div>
 
-</footer>
+  <footer>
+    <p>&copy; 2014 Groundwork</p>
+  </footer>
+</div>
+
