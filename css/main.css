@@ -10,3 +10,14 @@
 footer {
   margin-top: 20px;
 }
+
+img.gw-logo {
+  display: inline;
+  width: 29%;
+}
+
+img.gw-logo-text {
+  display: inline;
+  width: 70%;
+}
+
